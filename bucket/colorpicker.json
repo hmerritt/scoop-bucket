@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/Toinane/colorpicker",
+    "version": "2.0.3",
+    "license": "GPL-3.0",
+    "url": "https://github.com/Toinane/colorpicker/releases/download/2.0.3/colorpicker_setup_2.0.3.exe",
+    "checkver": {
+        "github": "https://github.com/Toinane/colorpicker"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Toinane/colorpicker/releases/download/$version/colorpicker_setup_$version.exe"
+    }
+}
