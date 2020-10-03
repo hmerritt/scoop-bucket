@@ -25,6 +25,6 @@
         "github": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client"
     },
     "autoupdate": {
-        "url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/$version/colorpicker_setup_$version.exe#/dl.7z"
+        "url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/$version/Google.Assistant-Setup-$version.exe#/dl.7z"
     }
 }
