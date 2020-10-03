@@ -1,0 +1,30 @@
+{
+    "homepage": "https://github.com/lukehaas/RunJS",
+    "version": "1.11.0",
+    "license": "GPL-3.0",
+    "url": "https://github.com/lukehaas/RunJS/releases/download/v1.11.0/RunJS-Setup-1.11.0.exe#/dl.7z",
+    "hash": "sha256:4c6eeaebc090f605557dac692081311fe1d4c719dbccf6256357b56207cf1e82",
+    "bin": "RunJS.exe",
+    "shortcuts": [
+        [
+            "RunJS.exe",
+            "RunJS"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+                ]
+            }
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/lukehaas/RunJS"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lukehaas/RunJS/releases/download/$version/colorpicker_setup_$version.exe#/dl.7z"
+    }
+}
