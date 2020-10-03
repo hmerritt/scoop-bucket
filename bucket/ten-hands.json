@@ -25,6 +25,6 @@
         "github": "https://github.com/saisandeepvaddi/ten-hands"
     },
     "autoupdate": {
-        "url": "https://github.com/saisandeepvaddi/ten-hands/releases/download/$version/colorpicker_setup_$version.exe#/dl.7z"
+        "url": "https://github.com/saisandeepvaddi/ten-hands/releases/download/$version/Ten.Hands.Setup.$version.exe#/dl.7z"
     }
 }
