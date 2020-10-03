@@ -1,0 +1,30 @@
+{
+    "homepage": "https://github.com/saisandeepvaddi/ten-hands",
+    "version": "2.9.1",
+    "license": "MIT",
+    "url": "https://github.com/saisandeepvaddi/ten-hands/releases/download/v2.9.1/Ten.Hands.Setup.2.9.1.exe#/dl.7z",
+    "hash": "sha256:87027bff34f7f85c2738304a1248143d0abfac62b055e33b7b5c6f98ce1d380f",
+    "bin": "Ten Hands.exe",
+    "shortcuts": [
+        [
+            "Ten Hands.exe",
+            "Ten Hands"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+                ]
+            }
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/saisandeepvaddi/ten-hands"
+    },
+    "autoupdate": {
+        "url": "https://github.com/saisandeepvaddi/ten-hands/releases/download/$version/colorpicker_setup_$version.exe#/dl.7z"
+    }
+}
