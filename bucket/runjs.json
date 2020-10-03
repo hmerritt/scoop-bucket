@@ -25,6 +25,6 @@
         "github": "https://github.com/lukehaas/RunJS"
     },
     "autoupdate": {
-        "url": "https://github.com/lukehaas/RunJS/releases/download/$version/colorpicker_setup_$version.exe#/dl.7z"
+        "url": "https://github.com/lukehaas/RunJS/releases/download/$version/RunJS-Setup-$version.exe#/dl.7z"
     }
 }
