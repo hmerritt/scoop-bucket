@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client",
-    "version": "1.0.0",
+    "version": "1.0.0-rc.2",
     "license": "Apache-2.0",
-    "url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/v1.0.0-rc.1/Google.Assistant-Setup-1.0.0-rc.1.exe#/dl.7z",
+    "url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/v1.0.0-rc.2/Google_Assistant-Setup-1.0.0-rc.2.exe#/dl.7z",
     "hash": "sha256:656d4c41270c1ab1b09f3579d2773bc3cade67fe8ce5d5a01a43e079f54b0a99",
     "bin": "Google Assistant.exe",
     "shortcuts": [
