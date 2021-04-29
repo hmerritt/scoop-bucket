@@ -13,7 +13,7 @@
     "bin": "fspop.exe",
     "checkver": {
         "github": "https://merritt.es/releases/fspop/?C=N;O=D",
-        "regex": "(?<version>[0-9][\.][0-9][\.][0-9])",
+        "regex": "(?<version>[0-9][\\.][0-9][\\.][0-9])",
         "replace": "${version}"
     },
     "autoupdate": {
