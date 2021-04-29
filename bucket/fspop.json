@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://merritt.es/releases/fspop/0.4.5/fspop-0.4.5-windows_amd64.zip",
             "hash": "05fe1b3f1824c4bb2fe7dfb678d36c7cf02e55fe39e411f8517512af8b90eace",
-            "extract_dir": "fspop-0.4.5-win-64bit"
+            "extract_dir": "."
         }
     },
     "bin": "fspop.exe",
