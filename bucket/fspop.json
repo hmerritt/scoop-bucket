@@ -1,25 +1,26 @@
 {
-    "version": "0.4.5",
+    "version": "0.8.1",
     "description": "Automate the creation of file structures using custom templates",
     "homepage": "https://gitlab.com/merrittcorp/fspop",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://merritt.es/releases/fspop/0.4.5/fspop-0.4.5-windows_amd64.zip",
-            "hash": "05fe1b3f1824c4bb2fe7dfb678d36c7cf02e55fe39e411f8517512af8b90eace"
+            "url": "https://releases.merritt.es/fspop/v0.8.1/fspop-v0.8.1-windows_amd64.zip",
+            "hash": "09c4bae70f843a984390be5142d93ebdac0beee0f29bfce941daf1239646feeb"
         }
     },
     "bin": "fspop.exe",
     "checkver": {
-        "github": "https://merritt.es/releases/fspop/?C=N;O=D",
+		"url": "https://releases.merritt.es/fspop/",
         "regex": "(?<version>[0-9][\\.][0-9][\\.][0-9])",
+		"reverse": true,
         "replace": "${version}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://merritt.es/releases/fspop/$matchVersion/fspop-$matchVersion-windows_amd64.zip",
-                "extract_dir": "fspop-$matchVersion-win-64bit"
+                "url": "https://merritt.es/releases/fspop/v$version/fspop-v$version-windows_amd64.zip",
+                "extract_dir": "fspop-v$version-win-64bit"
             }
         }
     }
