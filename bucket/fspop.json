@@ -1,12 +1,12 @@
 {
-    "version": "0.8.2",
+    "version": "1.0.0",
     "description": "Automate the creation of file structures using custom templates",
     "homepage": "https://gitlab.com/merrittcorp/fspop",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://releases.merritt.es/fspop/v0.8.2/fspop-v0.8.2-windows_amd64.zip",
-            "hash": "0eec207eeb70e66eb80bb8a0a758f2685c4d3dd79829717958773f1c5c7c3700"
+            "url": "https://releases.merritt.es/fspop/v1.0.0/fspop-v1.0.0-windows_amd64.zip",
+            "hash": "faefaafad9df385d745bf2f9f0d9f7316a61f24dfd87ffedc2b4cdb21155b824"
         }
     },
     "bin": "fspop.exe",
