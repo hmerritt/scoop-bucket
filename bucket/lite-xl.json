@@ -9,11 +9,11 @@
             "hash": "fdf4ade7712da73db0248bf74e1cd852d7f517fbb3188a0168af73dcceea5516"
         }
     },
-    "bin": "lite.exe",
+    "bin": "lite-xl/lite.exe",
     "shortcuts": [
         [
-            "lite.exe",
-            "lite"
+            "lite-xl/lite.exe",
+            "lite-xl/lite"
         ]
     ],
     "checkver": {
