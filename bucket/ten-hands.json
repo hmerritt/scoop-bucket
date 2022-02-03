@@ -1,10 +1,9 @@
 {
     "homepage": "https://github.com/saisandeepvaddi/ten-hands",
-    "version": "2.9.1",
+    "version": "2.10.3",
     "license": "MIT",
-    "url": "https://github.com/saisandeepvaddi/ten-hands/releases/download/v2.9.1/Ten.Hands.Setup.2.9.1.exe#/dl.7z",
-    "hash": "sha256:87027bff34f7f85c2738304a1248143d0abfac62b055e33b7b5c6f98ce1d380f",
-    "bin": "Ten Hands.exe",
+    "url": "https://github.com/saisandeepvaddi/ten-hands/releases/download/v2.10.3/Ten.Hands.Setup.2.10.3.exe#/dl.7z",
+    "hash": "sha256:bca8e7ac20a005af426bfae281ffc7df2d6590f49946af34a4ce66a5302a1fc4",
     "shortcuts": [
         [
             "Ten Hands.exe",
