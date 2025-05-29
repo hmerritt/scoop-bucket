@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.mrrtt.me/autocost/v0.1.10/autocost_0.1.10_windows_amd64.zip",
-            "hash": "c7bb1e7dbcf1bab422e5c209e06e0aae7d6f025a6a5675a0e3504a2e57835997"
+            "hash": "538201f25983442f5eb705aa9d7d1f6b00aa4603b40693b3e202eb9f9a313776"
         }
     },
     "bin": "autocost.exe",

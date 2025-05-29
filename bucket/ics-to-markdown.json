@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.mrrtt.me/ics-to-markdown/v0.5.10/ics-to-markdown_0.5.10_windows_amd64.zip",
-            "hash": "f926fd667067643fcdb352f3ca253c62d7087d6fc4c6ec6a2afdbb6ecf69b56c"
+            "hash": "5647d13ee369ef3ca7bb239bad0677d2f1ecd3528eff11c6fb5bd480eece496a"
         }
     },
     "bin": "ics-to-markdown.exe",

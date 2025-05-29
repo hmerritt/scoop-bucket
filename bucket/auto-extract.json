@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.mrrtt.me/auto-extract/v1.0.3/auto-extract-v1.0.3-windows_amd64.zip",
-            "hash": "47891100a58f00c22300375d9dd6b6746e9dc0dcbda25b26a343ab744814540f"
+            "hash": "a2ae4ff715fa24af52ab869bfc73896def25e45fc909e34af18df4253ae41b6a"
         }
     },
     "bin": "auto-extract.exe",
