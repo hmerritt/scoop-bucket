@@ -1,0 +1,27 @@
+{
+    "version": "0.5.10",
+    "description": "ICS->Markdown | Convert a calendar ICS file into a Markdown table",
+    "homepage": "https://github.com/hmerritt/go-ics-to-markdown",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.mrrtt.me/ics-to-markdown/v0.5.10/ics-to-markdown_0.5.10_windows_amd64.zip",
+            "hash": "f926fd667067643fcdb352f3ca253c62d7087d6fc4c6ec6a2afdbb6ecf69b56c"
+        }
+    },
+    "bin": "ics-to-markdown.exe",
+    "checkver": {
+        "url": "https://releases.mrrtt.me/ics-to-markdown/",
+        "regex": "(?<version>[0-9][\\.][0-9][\\.][0-9])",
+        "reverse": true,
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.mrrtt.me/ics-to-markdown/v$version/ics-to-markdown_$version_windows_amd64.zip",
+                "extract_dir": "ics-to-markdown_v$version_win_64bit"
+            }
+        }
+    }
+}
