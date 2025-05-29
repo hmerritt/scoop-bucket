@@ -1,0 +1,27 @@
+{
+    "version": "1.0.3",
+    "description": "Watch a folder for archives and extract them automatically.",
+    "homepage": "https://gitlab.com/mrrttjd/auto-extract",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.mrrtt.me/auto-extract/v1.0.3/auto-extract-v1.0.3-windows_amd64.zip",
+            "hash": "47891100a58f00c22300375d9dd6b6746e9dc0dcbda25b26a343ab744814540f"
+        }
+    },
+    "bin": "auto-extract.exe",
+    "checkver": {
+        "url": "https://releases.mrrtt.me/auto-extract/",
+        "regex": "(?<version>[0-9][\\.][0-9][\\.][0-9])",
+        "reverse": true,
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.mrrtt.me/auto-extract/v$version/auto-extract-v$version-windows_amd64.zip",
+                "extract_dir": "auto-extract_v$version_win_64bit"
+            }
+        }
+    }
+}
