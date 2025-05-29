@@ -1,16 +1,11 @@
 {
     "homepage": "https://github.com/antonycourtney/tad",
-    "version": "0.9.0",
+    "version": "0.14.0",
     "license": "MIT",
-    "url": "https://github.com/antonycourtney/tad/releases/download/v0.9.0/Tad.Setup.0.9.0.exe#/dl.7z",
-    "hash": "sha256:8f5c469ffacdafe7cedb23975c565c9d76d0b0cec311b2e56ccd352c2734d02a",
+    "url": "https://github.com/antonycourtney/tad/releases/download/v0.14.0/Tad-Setup-0.14.0.exe#/dl.7z",
+    "hash": "sha256:0ce2b936cc71ea5e5f662ec6117ad1f15049dd843ef6217b2bf00bb28f499cb2",
     "bin": "Tad.exe",
-    "shortcuts": [
-        [
-            "Tad.exe",
-            "Tad"
-        ]
-    ],
+    "shortcuts": [["Tad.exe", "Tad"]],
     "architecture": {
         "64bit": {
             "installer": {
@@ -25,6 +20,6 @@
         "github": "https://github.com/antonycourtney/tad"
     },
     "autoupdate": {
-        "url": "https://github.com/antonycourtney/tad/releases/download/$version/Tad.Setup.$version.exe#/dl.7z"
+        "url": "https://github.com/antonycourtney/tad/releases/download/$version/Tad-Setup-$version.exe#/dl.7z"
     }
 }

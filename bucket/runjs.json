@@ -1,15 +1,10 @@
 {
     "homepage": "https://github.com/lukehaas/RunJS",
-    "version": "2.2.2",
+    "version": "3.1.2",
     "license": "GPL-3.0",
-    "url": "https://github.com/lukehaas/RunJS/releases/download/v2.2.2/RunJS-Setup-2.2.2.exe#/dl.7z",
-    "hash": "sha256:0950ad848f3d553f52a3caee535005e95f80fcd81ebc2dd3b9b25f5621fd9684",
-    "shortcuts": [
-        [
-            "RunJS.exe",
-            "RunJS"
-        ]
-    ],
+    "url": "https://github.com/lukehaas/RunJS/releases/download/v3.1.2/RunJS-Setup-3.1.2.exe#/dl.7z",
+    "hash": "sha256:494381ab5de1a8170015c7ab38edf202f7a273ce99e8896ab9aea4c9ff57009b",
+    "shortcuts": [["RunJS.exe", "RunJS"]],
     "architecture": {
         "64bit": {
             "installer": {
