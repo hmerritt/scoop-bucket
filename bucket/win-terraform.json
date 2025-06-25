@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.mrrtt.me/win-terraform/v1.1.202/win-terraform_1.1.202.zip",
-            "hash": "30b7b5c9bbe93ff21c21e5ffb2e57563c9062046f3d351dcc90b4682be45b91d"
+            "hash": "a4eb6ece72606d40d097fbca6d2219e42c14a4c63cabf832361ab4f6c79050ef"
         }
     },
     "bin": "win-terraform.exe",
