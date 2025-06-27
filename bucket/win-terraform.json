@@ -1,12 +1,12 @@
 {
-    "version": "1.1.220",
+    "version": "1.1.221",
     "description": "Terraform Windows 11 into a more performant, secure, and overall more pleasant experience.",
     "homepage": "https://github.com/hmerritt/win-terraform",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://releases.mrrtt.me/win-terraform/v1.1.220/win-terraform_1.1.220.zip",
-            "hash": "d313dabe32f355191970a45af0a0a6c605e3a797d40fcec23c0380978bdee0d1"
+            "url": "https://releases.mrrtt.me/win-terraform/v1.1.221/win-terraform_1.1.221.zip",
+            "hash": "077ae74bcaa950a900e762db8e1681e7ea1cb01c807ee82b6d2babaa4d2f244e"
         }
     },
     "bin": "win-terraform.exe",
