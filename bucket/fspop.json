@@ -5,7 +5,7 @@
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://releases.mrrtt.me/fspop/v1.3.250/fspop-v1.3.250-windows_amd64.zip",
+            "url": "https://releases.mrrtt.me/fspop/v1.3.250/fspop_1.3.250_windows_amd64.zip",
             "hash": "58b530c16edb68826308d7f04b74572e87e1e534465e01f38d1b5e4e29b7b9db"
         }
     },
