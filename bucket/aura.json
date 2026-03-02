@@ -1,12 +1,12 @@
 {
-    "version": "0.11.18",
+    "version": "0.11.24",
     "description": "A simple, lightweight, background manager written in Rust",
     "homepage": "https://github.com/hmerritt/aura",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://releases.mrrtt.me/aura/0.11.18/aura_0.11.18_windows_amd64.zip",
-            "hash": "9dadc6d123b055848001276ea671fa8ff3f90fe32ac390407cf350b4716e91db"
+            "url": "https://releases.mrrtt.me/aura/0.11.24/aura_0.11.24_windows_amd64.zip",
+            "hash": "8b8b9f60a15c569b08e307497f2cba7fe00ff9fec414540229dbd63e0bb13cd2"
         }
     },
     "bin": "aura.exe",
