@@ -1,12 +1,12 @@
 {
-    "version": "0.13.0",
-    "description": "File Explorer",
+    "version": "0.14.0",
+    "description": "Windows File Explorer for macOS, Linux, and Windows",
     "homepage": "https://github.com/hmerritt/explorer",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hmerritt/explorer/releases/download/0.13.0/explorer-0.13.0-windows-amd64.zip",
-            "hash": "2e9c6e618c9456c2bdbc098ab6613a1426e94318a699958a41de18a8b3f4e5a8"
+            "url": "https://github.com/hmerritt/explorer/releases/download/0.14.0/explorer-0.14.0-windows-amd64.zip",
+            "hash": "571b0d2b2c077ca88f21fbcf571fbfc07884d342da6461bbf82b88f3e0e4ce89"
         }
     },
     "bin": "explorer.exe"
