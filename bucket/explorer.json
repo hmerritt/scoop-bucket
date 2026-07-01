@@ -9,5 +9,6 @@
             "hash": "571b0d2b2c077ca88f21fbcf571fbfc07884d342da6461bbf82b88f3e0e4ce89"
         }
     },
-    "bin": "explorer.exe"
+    "bin": "explorer.exe",
+    "shortcuts": [["explorer.exe", "Explorer"]]
 }
