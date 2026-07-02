@@ -1,14 +1,17 @@
 {
-    "version": "0.14.0",
-    "description": "Windows File Explorer for macOS, Linux, and Windows",
+    "version": "0.15.0",
+    "description": "Windows File Explorer for macOS, Linux, and Windows.",
     "homepage": "https://github.com/hmerritt/explorer",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hmerritt/explorer/releases/download/0.14.0/explorer-0.14.0-windows-amd64.zip",
-            "hash": "571b0d2b2c077ca88f21fbcf571fbfc07884d342da6461bbf82b88f3e0e4ce89"
+            "url": "https://github.com/hmerritt/explorer/releases/download/0.15.0/explorer-0.15.0-windows-amd64.zip",
+            "hash": "cc6af8b17dfe980b3adcef856cf555f83c54d409f7d45ebfab53c1a359d7bed3"
         }
     },
-    "bin": "explorer.exe",
-    "shortcuts": [["explorer.exe", "Explorer"]]
+    "pre_install": "if (!(Test-Path \"$dir\\file-explorer.exe\") -and (Test-Path \"$dir\\explorer.exe\")) { Rename-Item \"$dir\\explorer.exe\" 'file-explorer.exe' }",
+    "post_install": "if ([version]$Manifest.version -ge [version]'0.15.0' -and (Test-Path \"$dir\\file-explorer.exe\")) { & \"$dir\\file-explorer.exe\" --register-file-associations }",
+    "pre_uninstall": "if ([version]$Manifest.version -ge [version]'0.15.0' -and (Test-Path \"$dir\\file-explorer.exe\")) { & \"$dir\\file-explorer.exe\" --unregister-file-associations }",
+    "bin": [["file-explorer.exe", "explorer"]],
+    "shortcuts": [["file-explorer.exe", "Explorer"]]
 }
