@@ -1,12 +1,12 @@
 {
-    "version": "1.2.97",
+    "version": "1.3.100",
     "description": "Watch a folder for archives and extract them automatically.",
     "homepage": "https://gitlab.com/mrrttjd/auto-extract",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://releases.mrrtt.me/auto-extract/v1.2.97/auto-extract_1.2.97_windows_amd64.zip",
-            "hash": "6f263addc4a44acd8d9b809abb77f20f201fd90939dcf2bd0f6194a1b781c902"
+            "url": "https://releases.mrrtt.me/auto-extract/v1.3.100/auto-extract_1.3.100_windows_amd64.zip",
+            "hash": "196f63a283545f96f4827637d5b665607c4aa2678fcb5385d75f51ed74318974"
         }
     },
     "bin": "auto-extract.exe",
